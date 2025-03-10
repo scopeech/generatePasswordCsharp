@@ -32,6 +32,7 @@ class Program
     static void SavePassword(string password)
     {
         string filePath = "passwords.txt";
-        File.AppendAllText(filePath, password + Environment.NewLine);
+        string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        File.AppendAllText(filePath, $"{timestamp} - {password}{Environment.NewLine}");
     }
 }
