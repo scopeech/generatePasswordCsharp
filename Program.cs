@@ -12,6 +12,9 @@ class Program
         string password = GeneratePassword(length);
         Console.WriteLine($"Ваш случайный пароль: {password}");
 
+        SavePassword(password);
+        Console.WriteLine("Пароль сохранен в passwords.txt");
+
     }
     static string GeneratePassword(int length)
     {
@@ -25,5 +28,10 @@ class Program
         }
         return new string(password);
 
+    }
+    static void SavePassword(string password)
+    {
+        string filePath = "passwords.txt";
+        File.AppendAllText(filePath, password + Environment.NewLine);
     }
 }
