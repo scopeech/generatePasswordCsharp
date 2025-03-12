@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "axjJfsr+Ln8=",
+  "dgSpecHash": "y1DcC06SIZE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\generatePassword\\generatePassword\\generatePassword.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\generatePasswordCsharp\\generatePassword.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
